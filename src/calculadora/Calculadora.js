@@ -8,7 +8,8 @@ class Calculadora extends Component {
         this.state = {
             operador1 : 2,
             operador2 : 3,
-            resultado : 0
+            resultado : 0,
+            historial : []
         }
         this.handleInputChange = this.handleInputChange.bind(this);
         this.handleBtnSumar = this.handleBtnSumar.bind(this);
